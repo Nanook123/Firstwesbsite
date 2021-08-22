@@ -1,0 +1,29 @@
+body {
+    background: rgb(255, 255, 255);
+  
+} 
+
+.aboutHead h1 {
+
+  color: #0032499c;
+  font-style : Helvetica;
+    text-align : center;
+    
+}
+
+.aboutHead p {
+
+    font-size: 18px;
+    text-align : center;
+
+}
+  
+.firstP p {
+
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+    
+
+}
+  
