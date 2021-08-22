@@ -1,7 +1,10 @@
 body {
     background: rgb(255, 255, 255);
+    margin: 0;
   
 } 
+
+
 
 .aboutHead h1 {
 
@@ -27,3 +30,50 @@ width: 900px;
 
 }
   
+.travel {
+    
+   text-align: center;
+
+}
+
+.travel img{
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+
+text-align: center;
+color: #0032499c;
+}
+
+.hobbies p {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+p {
+
+    text-align: center;
+}
+
+.Learning    {
+
+    list-style-position: inside;
+    text-align: center;
+    
+}
+
+ #Mail {
+
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background: rgb(122, 143, 173);
+            text-align: center;
+}
