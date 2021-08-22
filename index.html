@@ -8,7 +8,7 @@
 
 <body>
     <div class=aboutHead>
-        <h1>About Josh</h1>
+        <h1 id = "event">About Josh</h1>
         <p><em>This Website will be to show the progress I have made and a little about myself</em></p>
     </div>
     <br>
@@ -29,7 +29,7 @@
         </p>
     </div>
     <div class="travel">
-        <img src=./Dive.PNG alt="Diver" height="200" width="250">
+        <img id="change" onmouseover="setNewImage()" onmouseout="setOldImage()" src=./Dive.PNG alt="Diver" height="200" width="250">
         <img src=./Gundam1.PNG alt="Unicorn" height="200" width="250">
         <img src=./MySushi.PNG alt="godLikeSushi" height="200" width="250">
     </div>
@@ -65,8 +65,17 @@
 
     </div>
 <script>
-    document.getElementById("aboutHead").onmouseover = function(){mouseOver()};
-    document.getElementById("aboutHead").onmouseout = function(){mouseOut()};
+
+function setNewImage()
+{
+document.getElementById("change").src="./change.PNG"
+}
+
+function setOldImage()
+{
+    document.getElementById("change").src="./Dive.PNG"
+}
+
 
 </script>
 </body>
